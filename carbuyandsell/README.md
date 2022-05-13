@@ -48,4 +48,12 @@ python3 -m venv env
 source env/bin/activate
 cd carbuyandsell/
 pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser --email admin@example.com --username admin
+python manage.py runserver 0.0.0.0:8000
+# Open http://172.17.0.2:8000/admin/
+# Click Cars and add some entries
+# Go to http://172.17.0.2:8000/cars/
+# Thats it cheers!
 ```
