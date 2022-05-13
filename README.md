@@ -1,1 +1,2 @@
-# django-restapi-projects
+# Django Rest Framework Applications
+## carbuyandsell - Car Buy & Sell
